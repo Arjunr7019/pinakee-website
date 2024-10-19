@@ -1,0 +1,22 @@
+.ExtendedServices{
+    height: 100vh;
+}
+.GetMoreWithUs-Container{
+    width: 50%;
+}
+.ExtendedServices img{
+    width: 40% !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ExtendedServices{
+        height: fit-content;
+    }
+    .ExtendedServices img{
+        width: 65% !important;
+    }
+    .GetMoreWithUs-Container{
+        width: 100%;
+    }
+  }

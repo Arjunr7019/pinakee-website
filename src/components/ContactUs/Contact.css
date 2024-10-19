@@ -1,0 +1,21 @@
+.ContactForm{
+    height: 80vh;
+}
+.ContactForm-OurContacts{
+    width: 50% !important;
+}
+.formInputs{
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .ContactForm{
+        height: fit-content;
+    }
+    .ContactForm-OurContacts{
+        width: 100% !important;
+    }
+    .formInputs{
+        width: 100% !important;
+    }
+}

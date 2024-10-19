@@ -1,0 +1,15 @@
+.CustomerFeedback{
+    height: 100vh;
+}
+.comments-card{
+    width: 25% !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .CustomerFeedback{
+        height: fit-content;
+    }
+    .comments-card{
+        width: 90% !important;
+    }
+  }
