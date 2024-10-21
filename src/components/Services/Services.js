@@ -8,7 +8,7 @@ export default function Services() {
     return (
         <div className='px-5' style={{ backgroundColor: "#252525" }}>
             <h1 className="text-center fw-bold pt-5" style={{ color: "#F95A1E" }}>Services</h1>
-            <div className="d-flex justify-content-around align-item-center flex-row">
+            <div className="d-flex justify-content-around align-item-center flex-row flex-wrap">
                 <div className="d-flex justify-content-center align-items-center flex-column p-4 m-4">
                     <img className="mb-3" style={{ width: "15%" }} src={ComponetOne} alt="icon" />
                     <h2 className="text-light mb-3">CORPORAT SOLUTIONS</h2>

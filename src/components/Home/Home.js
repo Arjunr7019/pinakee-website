@@ -12,8 +12,8 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
              }}>
-            <div className='d-flex justify-content-around  flex-row' style={{ height: "100%" }}>
-                <div className='d-flex justify-content-center  flex-column'>
+            <div className='d-flex justify-content-around flex-row ' style={{ height: "100%" }}>
+                <div className='d-flex justify-content-center flex-column'>
                     <h1 className='fw-bold m-0' style={{ color: '#F95A1E' }}>EVERTYTHING YOU DESIRE,</h1>
                     <h1 className='fw-bold mb-4'>dersires you back more</h1>
                     <p className='mb-4'>If you knew you are attract want, what would you want?<br />Let us help you shape your desires.</p>
@@ -35,7 +35,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='d-flex justify-content-center ' style={{ height: "fit-content" }}>
+                <div className='d-none d-sm-flex justify-content-center align-items-start ' style={{ height: "fit-content" }}>
                     <img className='w-75 pt-5' src={HomeComponentImg} alt="img" />
                 </div>
             </div>

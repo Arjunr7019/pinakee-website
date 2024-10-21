@@ -1,12 +1,13 @@
 import React from 'react';
+import './Services.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ExtendedServicesImg from '../../img/extendedServices.svg';
 
 export default function ExtendedServices() {
     return (
-        <div className='vh-100 d-flex justify-content-center align-items-center flex-row'>
-            <img style={{ width: '40%' }} src={ExtendedServicesImg} alt="img" />
-            <div className='w-50 px-5 d-flex justify-content-center flex-column'>
+        <div className='ExtendedServices py-5 py-sm-0 d-flex justify-content-center align-items-center flex-column flex-sm-row'>
+            <img className='mb-3 mb-sm-0' src={ExtendedServicesImg} alt="img" />
+            <div className='GetMoreWithUs-Container px-3 px-sm-5 d-flex justify-content-center flex-column'>
                 <h1 className='mb-3'>Get More With Us</h1>
                 <div>
                     <h5 className='fw-bold'>FREE APP</h5>

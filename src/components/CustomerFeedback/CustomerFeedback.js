@@ -1,4 +1,5 @@
 import React from 'react';
+import './CustomerFeedback.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomerImg from '../../img/customerImg.png';
 import CustomerIcon from '../../img/customerIcon.svg';
@@ -23,13 +24,13 @@ export default function CustomerFeedback() {
         }
     ]
     return (
-        <div className='vh-100 d-flex justify-content-center align-items-center flex-column' style={{backgroundColor:"#F0F0F0"}}>
+        <div className='CustomerFeedback py-5 py-sm-0 d-flex justify-content-center align-items-center flex-column' style={{backgroundColor:"#F0F0F0"}}>
             <h1 className='fw-bold text-center mb-5' style={{ color: "#F95A1E" }}>Let our customers speak for us!</h1>
-            <div className='d-flex justify-content-around align-items-center flex-row pt-4'>
+            <div className='d-flex justify-content-around align-items-center align-items-sm-start flex-column flex-sm-row pt-4'>
                 {customerFeedback.map((data) =>
-                    <div className='p-4 w-25 rounded-3 position-relative' style={{ 
+                    <div className='p-4 mx-sm-0 mx-2 mb-5 mb-sm-0 comments-card rounded-3 position-relative' style={{ 
                         boxShadow: "rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",
-                        height:"fit-content" }}>
+                        height:"fit-content" }} key={data.name}>
                         <img className='position-absolute' style={{ left: "10%", top: "-5%" }} src={CustomerIcon} alt="icon" />
                         <div className='d-flex justify-content-center align-items-center flex-column'>
                             <div className='d-flex justify-content-start align-items-center flex-row'>
